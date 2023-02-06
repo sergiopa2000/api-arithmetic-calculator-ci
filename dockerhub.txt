@@ -1,0 +1,6 @@
+sergiopa/api-calculator
+ - Requiere mongo y redis
+ - Usa el docker-compose.yml para montar el proyecto con mongo y redis
+ - Usa el example-client para usar el proyecto: Registras usuario, te logeas y ya podrás calcular hasta 5 expresiones
+   después de hacer 5 peiticiones tendrás que logearte de nuevo para conseguir un nuevo token
+ - También tendrás que crear un volumen de docker llamado mongo-data
